@@ -1,4 +1,5 @@
-function App() {
-  <div>hi</div>;
+import Board from "./components/Board";
+import Square from "./components/Square";
+export default function App() {
+  return <Board></Board>;
 }
-export default App;
